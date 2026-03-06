@@ -1,4 +1,5 @@
-local killBrick = script.Parent
+Local Killbrick = Instance.new("Part")
+Killbrick.Name = "Killbrick"
 
 killBrick.Touched:Connect(function(hit)
 	local humanoid = hit.Parent:FindFirstChild("Humanoid")
